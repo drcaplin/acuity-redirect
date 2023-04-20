@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    if (event.data.type === 'booking:completed') {
+    if (event.data.type === 'scheduled') {
       window.location.href = 'https://myoptimalbody.com'; // Replace with the URL you want to redirect to after scheduling an appointment
     }
   });
